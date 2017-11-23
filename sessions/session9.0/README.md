@@ -110,7 +110,7 @@
 
 
 ```
-/node_modules
+node_modules/
 ```
 >> **Listing 2**, The contents `.gitignore` file, excluding node modules from the repo
 
