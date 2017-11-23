@@ -1,8 +1,13 @@
 # Practical
 
-Today is more than about following a step by step process to complete some task. We will require you to understand how to utilise third party components.  I want you using a package manager to initiate a vue app
+Today is more than about following a step by step process to complete some task. We will require you to understand how to utilise third party components.
 
-- As a minimum I would like you to set up a contact form and validate it using [Vee Validate](https://github.com/baianat/vee-validate)
+- Using NPM set up your project and install `vue`
+
+- To start with, take a contact form from [w3fools](https://www.w3schools.com/howto/howto_css_contact_form.asp) and implement it 
+  as a vue component
+
+- Next, I would like you to add validation using a component like [Vee Validate](https://github.com/baianat/vee-validate)
 
  - If you're feeling adventurous you can explore  [the Curated list of view components](https://github.com/vuejs/awesome-vue#menu) and find some that could be used in your assignment 
 
