@@ -20,7 +20,7 @@ By the end of this week you should:
 
 **Session 1 and Session 2**
 
-[Package Manages and Javascript Frameworks] (sessions/session9.0/README.md)
+[Package Manages and Javascript Frameworks](sessions/session9.0/README.md)
 
 
 
