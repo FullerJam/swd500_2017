@@ -236,7 +236,7 @@ var app = new Vue({
 
 - So far our application logic is bound to the main global instance of our Vue application. This is fine for very small apps, however quickly becomes unmanageable.
 
-- To compose bigger application we use the Vue uses the concept of web components. The idea is to create a application that is the product of lots of small simple components
+- To compose bigger application vue uses the concept of web components. The idea is to create an application that is the product of lots of small simple components
 
 - Components can live within other components, hence the idea of the Russian dolls
 
