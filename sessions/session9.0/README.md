@@ -287,7 +287,7 @@ new Vue({
 - Above (Listing 5) we declare a Vue component. Notice how we come up with our now name and then use that name directly within our html. 
 `<my-component>` will be replaced by our components template. 
 
-- This is a very powerful concept, as we can now use our component anywhere in our application by just inserting `<my-component>` into the html
+- This is a very powerful concept as we can now use our component anywhere in our application by just inserting `<my-component>` into the html
 
 
 # Practical 
