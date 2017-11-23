@@ -61,7 +61,7 @@
 - To initiate your project, using command line navigate to the root directory of your website.Next, Run the command `npm init`
 - If all goes well the npm init utility will run and ask you a  number of questions. Normally people just repeatedly press enter to go with the defaults
 
-```
+```javascript
 {
   "name": "vue_experiment",
   "version": "1.0.0",
@@ -140,7 +140,7 @@
 
 **main.js**
 
-```
+```javascript
 var app = new Vue({
     el: '#app',
     data: {
@@ -153,7 +153,7 @@ var app = new Vue({
 
 **index.html**
 
-```
+```html
 .....
 <html>
 	<div id="app">
@@ -175,7 +175,7 @@ var app = new Vue({
 
 **main.js**
 
-```
+```javascript
 var app = new Vue({
     el: '#app',
     data: {
@@ -192,7 +192,7 @@ var app = new Vue({
 
 **index.html**
 
-```
+```html
 .....
 <html>
 	<div id="app">
@@ -232,7 +232,7 @@ var app = new Vue({
 
 **js**
 
-```
+```javascript
 Vue.component('my-component', {
     template: `<div>{{message}} 
               <input type="text" v-model="userInput"> 
@@ -260,7 +260,7 @@ new Vue({
 
 **html**
 
-```
+```html
 <body>
 
 
@@ -272,7 +272,6 @@ new Vue({
 
 </body>
 ```
-
 >> **Listing 5**, creating reusable components
 
 - Above (Listing 5) we declare a Vue component. Notice how we come up with our now name and then use that name directly within our html. 
