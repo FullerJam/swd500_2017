@@ -8,7 +8,7 @@
 
 - The current web development ecosystem has seen a rapid rise of JavaScript [frameworks](http://todomvc.com/).  Such frameworks speed up the development process by enforcing structure and taking care of repetitive tasks such as DOM access and manipulation. 
 
-- **For your assessment you are free and encouraged to make use of JavaScriptFrameworks and tools. In fact, I actively encourage this as it is how media web sites and applications are built**
+- **For your assessment you are free and encouraged to make use of JavaScriptFrameworks and tools. In fact, I actively encourage this as it is how modern web sites and applications are built**
  
 ### What about jQuery 
 
@@ -21,8 +21,6 @@
 
 - Its drop in popularity is perhaps down to modern web browsers offering greater levels of support for javaScript features. Furthermore, much of the javaScript operations it simplified can be achieve much more elegantly using a good framework. 
 
-
-
 # The Vue.js Framework
 
 - In order to fully appreciate the benefits of using a javascript framework we are going to be experimenting with Vue.js. 
@@ -34,7 +32,19 @@
 ## Including Vue.js in your project
 
 - When working with any third party library you should set up your website project structure as normal 
-- Next, In order to include vue into our project we need to download the library
+```
+|vue-experiment/
+|-index.html
+|-css/
+|--main.css
+|-sass/
+|--main.scss
+|- js/  
+|--main.js
+```
+>> A simple project folder structure
+
+- Next, in order to include vue into our project we need to download the library
 - While it's possible to download it from a the website. We're going to use a package manager.
 
 ## The NPM Package Manager
