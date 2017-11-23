@@ -34,13 +34,10 @@
 ## Including Vue.js in your project
 
 - When working with any third party library you should set up your website project structure as normal 
-
-- Next, In order to include vue into our project we need to download the library.
-
+- Next, In order to include vue into our project we need to download the library
 - While it's possible to download it from a the website. We're going to use a package manager.
 
 ## The NPM Package Manager
-
 
 - Non-trival web applications are rarely built from scratch, instead they rely on third party libraries and components. 
 - Using a package manger allows us to easily consume third party packages. Furthermore, it allows you to omit these third party packages from you git repository. The result is you project is lightweight, portable and will be using up-to-date packages
@@ -61,7 +58,7 @@
 >> **Figure 2**, The NPM init utility
 
 - To use the NPM package manager, firstly nodeJS needs to be installed. If you are using clou9 this has already been done for you. If you are on your own computer, it's a simple case of downloading and click installing the binary from the nodeJs website
-- To initiate your project, using command line navigate to the root directory of your website. Run the command `npm init`
+- To initiate your project, using command line navigate to the root directory of your website.Next, Run the command `npm init`
 - If all goes well the npm init utility will run and ask you a  number of questions. Normally people just repeatedly press enter to go with the defaults
 
 ```
@@ -83,15 +80,13 @@
 ```
 >> **Listing 1**,  the package.json file 
 
-
-
-- After running `npm init` you notice that it has created a `package.json` file (Listing 1)
-- JSON stands for Java Script Object Notation. It's simply used to represent data. In the case of the `package.json` file the data will represent a schema for our application's dependancies.
+- After running `npm init` you'll notice that it has created a `package.json` file (Listing 1)
+- JSON stands for Java Script Object Notation. It's simply used to represent data. In the case of the `package.json` file, the data will represent a schema for our application's dependancies.
 
 **Installing a Dependancy**
 
 - Let's install our first dependancy, run `npm install vue --save`
-- You should see that a node_modules folder has been created and within it is the Vue library
+- You should see that a `node_modules` folder has been created and within it is the Vue library
 
 ![](assets/vu_js.png)
 >> **Figure 3**, The contents of the node_modules folder
