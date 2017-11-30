@@ -278,7 +278,7 @@ new Vue({
 ```
 >> **Listing 5**, creating reusable components
 
-- Above (Listing 5) we declare a Vue componen.  `<my-component>` when placed in the HTML will be replaced by our components template. 
+- Above (Listing 5) we declare a Vue component.  `<my-component>` when placed in the HTML will be replaced by our components template. 
 
 - This is a very powerful concept as we can now use our component anywhere in our application by just inserting `<my-component>` into the html
 
